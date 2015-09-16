@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
 				{ name: 'Martini', drunkness: 5 },
 				{ name: 'Scotch', drunkness: 10 }
 		];
-		var tagline = "Any code of your own that you haven't looked at for six or more months might as well have been written by someone else.";
+		var tagline = "Example of using variables declared within the view in server.js";
 
     res.render('pages/index', {
     	drinks: drinks,
